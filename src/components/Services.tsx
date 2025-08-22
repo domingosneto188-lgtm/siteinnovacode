@@ -228,7 +228,12 @@ const ServicesPage = () => {
           </div>
 
           <div className="text-center mt-12">
-            <a href="#contato" className="inline-block bg-orange-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-orange-600 transition-all">
+            <a 
+              href="https://wa.me/244932831874" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-block bg-orange-500 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:bg-orange-600 transition-all"
+            >
               Ainda tem dúvidas? Fale conosco
             </a>
           </div>
