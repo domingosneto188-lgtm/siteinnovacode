@@ -185,7 +185,7 @@ const ServicesPage = () => {
             </div>
           </div>
 
-          <div className="text-center mt-12">
+          <div className="text-center mt-8">
             <a 
               href="https://wa.me/244932831874" 
               target="_blank" 
@@ -196,10 +196,12 @@ const ServicesPage = () => {
             </a>
           </div>
         </div>
+      </section>
 
+      {/* Seção de FAQ */}
       <section id="faq" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
+          <div className="text-center mb-8">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Perguntas Frequentes
             </h2>
@@ -208,7 +210,7 @@ const ServicesPage = () => {
             </p>
           </div>
 
-          <div className="max-w-3xl mx-auto space-y-4">
+          <div className="max-w-3xl mx-auto space-y-2">
             {faqs.map((faq, index) => (
               <div key={index} className="bg-white rounded-xl shadow-md border border-gray-200">
                 <button
@@ -225,7 +227,7 @@ const ServicesPage = () => {
             ))}
           </div>
 
-          <div className="text-center mt-12">
+          <div className="text-center mt-8">
             <a 
               href="https://wa.me/244932831874" 
               target="_blank" 
