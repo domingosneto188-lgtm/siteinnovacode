@@ -34,7 +34,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/innovaCode.jpg" 
+              src="/innovaCode.png" 
               alt="Innovacode Logo" 
               className="h-12 w-12 rounded-lg object-cover"
             />
