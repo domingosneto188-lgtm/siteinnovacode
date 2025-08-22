@@ -127,7 +127,6 @@ const ServicesPage = () => {
                 <div
                   key={service.category}
                   className={`bg-white rounded-2xl p-8 shadow-lg border-2 ${colors.border} ${colors.hover} transition-all duration-300 hover:scale-105 hover:shadow-xl group`}
-                  style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className={`${colors.bg} w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
                     <Icon className="h-8 w-8 text-white" />
@@ -161,6 +160,40 @@ const ServicesPage = () => {
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Seção Modelos */}
+      <section id="modelos" className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Alguns Modelos de Sites
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Confira alguns modelos criados pela InovaCode que podem inspirar o seu próximo projeto
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="overflow-hidden rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300 bg-white">
+              <img src="/modelo1.jpg" alt="Modelo 1" className="w-full h-64 object-cover" />
+            </div>
+            <div className="overflow-hidden rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300 bg-white">
+              <img src="/modelo3.jpg" alt="Modelo 3" className="w-full h-64 object-cover" />
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <a 
+              href="https://wa.me/244932831874" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-block bg-orange-500 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:bg-orange-600 transition-all"
+            >
+              Peça o seu site agora
+            </a>
           </div>
         </div>
       </section>
