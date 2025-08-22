@@ -3,21 +3,21 @@ import React from 'react';
 const services = [
   {
     id: 'otimizado',
-    image: '/../public/card3.jpg', // 🔁 Substitua pelo caminho da sua imagem
+    image: '/card3.jpg', // 🔁 Substitua pelo caminho da sua imagem
     title: 'Site Otimizado',
     description:
       'Criamos sites rápidos e leves com código limpo, imagens otimizadas e SEO técnico, proporcionando a melhor experiência ao usuário.',
   },
   {
     id: 'velocidade',
-    image: '../public/carde2.jpg',
+    image: '/carde2.jpg',
     title: 'Velocidade',
     description:
       'Sites lentos afastam visitantes. Nossos projetos são pensados para máxima performance, com tempo de carregamento mínimo.',
   },
   {
     id: 'seo',
-    image: '../public/carde1.png',
+    image: '/carde1.png',
     title: 'Visibilidade no Google',
     description:
       'Utilizamos boas práticas de SEO para garantir que seu site seja facilmente encontrado por quem realmente importa: seus clientes.',
